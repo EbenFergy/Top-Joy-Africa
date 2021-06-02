@@ -10,28 +10,28 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
-    <body>
-    <!-------------------------- NAVBAR --------------------------->
-    <nav class="navbar">
+    <body >
+        <!-------------------------- NAVBAR --------------------------->
+        <nav class="navbar">
             <div class="nav-logo"><a href="index.html"><img src="img/Top Joy Africa 2.png" id="nav-logo" alt="">  </div></a>
                         
             <div class ="nav-links-lg">
                 <ul class="ul-link-lg">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
 
             <div class ="nav-links">
                 <ul class="ul-link">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faqs.html">FAQs</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
             <div class="join-btn-container">
@@ -42,59 +42,17 @@
             </div>
         </nav>
 
-        <!-------------------------- HEADER --------------------------->
-        <header class="header">
-            
-            <div class="header-text">
-                <div class="up-line"></div>
-                <h1 class="header-write-up">
-                    <span class="star">WANT TO BE A STAR? </span>    <br>
-                    <em>TOP JOY</em>    AFRICA IS THE WAY <br>
-                    <span class="begin-now">BEGIN THE JOURNEY NOW</span>   
-                </h1>
-                <div class="down-line"></div>
+        <section class="faqs-header">
+            <img src="img/FAQs.svg" alt="">
+            <div class="faqs-header-write-up">
+                <h1>FAQs</h1>
+                <p>Frequently Asked Questions</p>
             </div>
             
-        </header>
-
-        <!-------------------------- CARDS --------------------------->
-        <div class="top-hunt">
-            <h1 class="">TOP <strong>TALENT</strong> HUNT</h1>
-            <div class="top-card-container">
-                <div class="talent">
-                    <img src="img/top-talent-hunt.svg" alt="">
-                    Top Talent <br> <span> <strong>Hunt</strong> </span> 
-                </div>
-                <div class="music">
-                    <img src="img/top-music-award.svg" alt="">
-                    Top Music <br> <span><strong> Award</strong></span> 
-                </div>
-                <div class="instrumentalists">
-                    <img src="img/top-music-instrumentalist.svg" alt="">
-                    Top Music <br> <span><strong>Instrumentalist</strong> </span> 
-                </div>
-            </div>
-        </div>
-
-<!-------------------------- OTHER AWARDS --------------------------->
-
-        <div class="other-awards-container">
-            <div class="right"> <img src="img/Awards.svg" alt=""></div>
-            <div class="left">
-                <div class="left-txt">
-                    <h2>Other Awards</h2>
-                    <h5>Check out some other awards from Top Joy Africa</h5>
-                    <a href="awards.html"><button class="award-btn">Click to view</button></a>
-                </div>
-            </div>
-            
-        </div>
-
-        <!-------------------------- FAQS --------------------------->
-        <section>
+        </section>
+        <section class="faqs-body">
             <div class="container">
                 <div class="accordion">
-                    <p class="faq-heading">Frequently asked questions</p>
                     <div class="accordion-item" id="question1">
                         <a class="accordion-link" href="#question1">
                             What is Top Joy Africa?
@@ -165,20 +123,21 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-------------------------- Footer --------------------------->
-        <footer class="footer">
-            <h4>SPONSORS</h4>
-            
-            <div class="sponsor-logos">
-                <a href="#"><img src="img/GT.png" alt=""></a>
-                <a href="#" ><img src="img/access2.png"  alt="" id = "access"></a>
-                <a href="#"><img src="img/FCMB_Logo.png" alt=""></a>
-                <a href="#"><img src="img/1200px-Zenith_Bank_Logo.svg.png" alt=""></a>
+            <div class="faqs-body-form-container">
+                
+                <div class="faqs-body-form">
+                    <h3>Send your questions</h3>
+                    <input type="text" placeholder="Name" class="faqs-form-fill" id="faqs-form-name">
+                    <input type="email" placeholder="example@abc.com" class="faqs-form-fill" id="faqs-form-email">
+                    <input type="text" placeholder="Enter your question" class="faqs-form-fill" id="faqs-form-question">
+                    <a href=""><button class="faq-send-btn">Send</button></a>
+                </div>
             </div>
+        </section>
+
+        <footer class="contact-footer">
             <h6>TopJoyAfrica © 2021. All Rights Reserved</h6>
         </footer>
         <script src="script.js"></script>
     </body>
-
 </html>
